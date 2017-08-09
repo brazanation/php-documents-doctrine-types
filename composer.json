@@ -1,0 +1,32 @@
+{
+  "name": "brazanation/document-doctrine-types",
+  "description": "Library to provide Document as Doctrine Types",
+  "type": "library",
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "doctrine/dbal": "^2.5",
+    "brazanation/documents": "^0.7"
+  },
+  "require-dev": {
+    "doctrine/dbal": "^2.5",
+    "phpunit/phpunit": "^5.5",
+    "codacy/coverage": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Brazanation\\Doctrine\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Brazanation\\Doctrine\\Tests\\": "tests"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio Spinelli",
+      "email": "tonicospinelli85@gmail.com"
+    }
+  ]
+}
