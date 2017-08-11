@@ -10,7 +10,7 @@ Doctrine Types for Brazilian Documents
 ### Installation
 
 ```sh
-composer require brazanation/document-doctrine-types dev-master
+composer require brazanation/document-doctrine-types ^0.1
 ```
 
 ### How to Use?
