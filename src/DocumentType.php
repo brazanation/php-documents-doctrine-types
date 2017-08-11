@@ -8,6 +8,7 @@ abstract class DocumentType extends DBAL\Types\StringType
 {
     const CPF = 'cpf';
     const CNPJ = 'cnpj';
+    const CNH = 'cnh';
 
     abstract public function factory($number);
 

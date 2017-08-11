@@ -61,3 +61,4 @@ class Person
 |---------- | ----------- |
 | cpf       | Registration of individuals or Tax Identification |
 | cnpj      | Company Identification or National Register of Legal Entities |
+| cnh       | National Driving License |
