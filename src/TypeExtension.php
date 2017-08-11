@@ -11,6 +11,7 @@ class TypeExtension
         DocumentType::CNPJ => Types\CnpjType::class,
         DocumentType::CNH => Types\CnhType::class,
         DocumentType::PISPASEP => Types\PisPasepType::class,
+        DocumentType::CNS => Types\CnsType::class,
     ];
 
     public static function register(DBAL\Connection $connection)

@@ -59,7 +59,8 @@ class Person
 
 | Type Name | Description |
 |---------- | ----------- |
-| cpf       | Registration of individuals or Tax Identification |
-| cnpj      | Company Identification or National Register of Legal Entities |
 | cnh       | National Driving License |
+| cnpj      | Company Identification or National Register of Legal Entities |
+| cns       | National Health Card |
+| cpf       | Registration of individuals or Tax Identification |
 | pispasep  | Social Integration Program and Training Program of the Heritage of Public Servant |
