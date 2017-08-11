@@ -10,6 +10,7 @@ class TypeExtension
         DocumentType::CPF => Types\CpfType::class,
         DocumentType::CNPJ => Types\CnpjType::class,
         DocumentType::CNH => Types\CnhType::class,
+        DocumentType::PISPASEP => Types\PisPasepType::class,
     ];
 
     public static function register(DBAL\Connection $connection)

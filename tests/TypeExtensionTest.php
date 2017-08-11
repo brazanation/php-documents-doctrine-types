@@ -13,6 +13,7 @@ class TypeExtensionTest extends TestCase
         DocumentType::CPF,
         DocumentType::CNPJ,
         DocumentType::CNH,
+        DocumentType::PISPASEP,
     ];
 
     /**
