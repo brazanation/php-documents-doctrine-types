@@ -13,7 +13,10 @@ abstract class DocumentType extends DBAL\Types\StringType
 
     abstract public function getLength();
 
-    abstract public function isFixed();
+    public function isFixed()
+    {
+        return true;
+    }
 
     /**
      * Converts a value from its PHP representation to its database representation

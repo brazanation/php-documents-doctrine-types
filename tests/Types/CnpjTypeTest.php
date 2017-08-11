@@ -34,7 +34,7 @@ class CnpjTypeTest extends TestCase
     public function provideValidSQLDeclaration()
     {
         return [
-            'length' => Doctrine\Types\CnpjType::FIELD_LENGTH,
+            'length' => Cnpj::LENGTH,
             'fixed' => Doctrine\Types\CnpjType::FIELD_FIXED,
         ];
     }

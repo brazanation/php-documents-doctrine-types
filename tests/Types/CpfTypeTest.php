@@ -34,7 +34,7 @@ class CpfTypeTest extends TestCase
     public function provideValidSQLDeclaration()
     {
         return [
-            'length' => Doctrine\Types\CpfType::FIELD_LENGTH,
+            'length' => Cpf::LENGTH,
             'fixed' => Doctrine\Types\CpfType::FIELD_FIXED,
         ];
     }
