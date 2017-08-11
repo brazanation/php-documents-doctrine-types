@@ -8,6 +8,7 @@ class TypeExtension
 {
     private static $available = [
         DocumentType::CPF => Types\CpfType::class,
+        DocumentType::CNPJ => Types\CnpjType::class,
     ];
 
     public static function register(DBAL\Connection $connection)

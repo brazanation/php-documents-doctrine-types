@@ -11,6 +11,7 @@ class TypeExtensionTest extends TestCase
 {
     private $expectedTypes = [
         DocumentType::CPF,
+        DocumentType::CNPJ,
     ];
 
     /**

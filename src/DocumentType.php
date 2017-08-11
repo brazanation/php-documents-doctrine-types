@@ -7,6 +7,7 @@ use Doctrine\DBAL;
 abstract class DocumentType extends DBAL\Types\StringType
 {
     const CPF = 'cpf';
+    const CNPJ = 'cnpj';
 
     abstract public function factory($number);
 
