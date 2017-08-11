@@ -64,3 +64,4 @@ class Person
 | cns       | National Health Card |
 | cpf       | Registration of individuals or Tax Identification |
 | pispasep  | Social Integration Program and Training Program of the Heritage of Public Servant |
+| renavam   | National Registry of Motor Vehicles |

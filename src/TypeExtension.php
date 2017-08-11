@@ -12,6 +12,7 @@ class TypeExtension
         DocumentType::CNH => Types\CnhType::class,
         DocumentType::PISPASEP => Types\PisPasepType::class,
         DocumentType::CNS => Types\CnsType::class,
+        DocumentType::RENAVAM => Types\RenavamType::class,
     ];
 
     public static function register(DBAL\Connection $connection)
