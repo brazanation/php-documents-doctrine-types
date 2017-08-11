@@ -7,7 +7,7 @@ use Doctrine\DBAL;
 class TypeExtension
 {
     private static $available = [
-        'cpf' => Types\CpfType::class,
+        DocumentType::CPF => Types\CpfType::class,
     ];
 
     public static function register(DBAL\Connection $connection)

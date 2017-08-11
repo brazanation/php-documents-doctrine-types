@@ -2,19 +2,19 @@
 
 namespace Brazanation\Doctrine\Tests\Types;
 
-use Brazanation\Doctrine\Types\CpfType;
+use Brazanation\Doctrine;
 use Brazanation\Documents\Cpf;
 
 class CpfTypeTest extends TestCase
 {
     public function getTypeName()
     {
-        return CpfType::NAME;
+        return Doctrine\DocumentType::CPF;
     }
 
     public function getTypeClass()
     {
-        return CpfType::class;
+        return Doctrine\Types\CpfType::class;
     }
 
     public function provideValidToDatabaseValue()
@@ -33,6 +33,9 @@ class CpfTypeTest extends TestCase
 
     public function provideValidSQLDeclaration()
     {
-        return ['length' => 11, 'fixed' => true];
+        return [
+            'length' => Doctrine\Types\CpfType::FIELD_LENGTH,
+            'fixed' => Doctrine\Types\CpfType::FIELD_FIXED,
+        ];
     }
 }
